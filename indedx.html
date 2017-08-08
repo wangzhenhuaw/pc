@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>穷游网</title>
+    <link rel="stylesheet" href="fonts/iconfont.css"/>
+    <link rel="stylesheet" href="font_sm/iconfont.css"/>
+    <link rel="stylesheet" href="font_0529/iconfont.css"/>
+    <link rel="stylesheet" href="css/swiper.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<div class="wrap">
+    <!--顶部-->
+    <header>
+        <div class="logo"></div>
+        <div class="head">
+            <ul>
+                <li><a href="#">目的地</a></li>
+                <li><a href="#">锦囊</a></li>
+                <li><a href="#">行程助手</a></li>
+                <li><a href="#">社区</a><span>∨</span></li>
+                <li>
+                    <a href="#">商城</a>
+                    <em><img src="image/icon-recommend.gif" alt=""/></em>
+                    <i><img src="image/icon-recommend-arrow.png" alt=""/></i>
+                </li>
+                <li><a href="#">机票</a></li>
+                <li><a href="#">酒店</a></li>
+                <li><a href="#">预订</a><span>∨</span></li>
+            </ul>
+        </div>
+        <div class="head-right">
+            <ul>
+                <li><i class="icon iconfont">&#xe729;</i></li>
+                <li>|</li>
+                <li><i class="icon iconfont">&#xe6bc;</i></li>
+                <li><i class="icon iconfont">&#xe6c9;</i></li>
+                <li><i class="icon iconfont">&#xe6c5;</i></li>
+                <li><a href="#">注册</a></li>
+                <li><a href="#">登录</a></li>
+            </ul>
+        </div>
+    </header>
+    <!--banner轮播-->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="image/15.jpg" alt=""/></div>
+            <div class="swiper-slide"><img src="image/16.jpg" alt=""/></div>
+            <div class="swiper-slide"><img src="image/17.jpg" alt=""/></div>
+            <div class="swiper-slide"><img src="image/18.jpg" alt=""/></div>
+            <div class="swiper-slide"><img src="image/19.jpg" alt=""/></div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- 如果需要滚动条 -->
+        <!--<div class="swiper-scrollbar"></div>-->
+
+    </div>
+
+
+    <div class="search">
+        <ul>
+            <li><span></span><a href="#">目的地</a></li>
+            <li><span></span><a href="#">做行程</a></li>
+            <li><span></span><a href="#">买折扣</a></li>
+            <li><span></span><a href="#">酒店</a></li>
+        </ul>
+        <!--搜索框-->
+        <div class="search-bottom" id="search-bottom">
+            <input type="text" placeholder="瓦拉纳西" id="inp" autocomplete="off"/><p id="search">搜索</p>
+            <ul id="uls">
+                <li><a href="javascript:;">洛杉矶</a></li>
+                <li><a href="javascript:;">香港</a></li>
+                <li><a href="javascript:;">曼谷</a></li>
+                <li><a href="javascript:;">东京</a></li>
+                <li><a href="javascript:;">澳门</a></li>
+                <li><a href="javascript:;">台湾</a></li>
+                <li><a href="javascript:;">巴黎</a></li>
+                <li><a href="javascript:;">罗马</a></li>
+                <li><a href="javascript:;">普吉岛</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="tu">
+        <div><img src="image/xinjiapo.png" alt=""/></div>
+        <div><img src="image/14999421085331.jpg" alt=""/></div>
+    </div>
+    <!--猜你感兴趣-->
+    <div class="interest">
+        <h2>猜你感兴趣</h2>
+
+        <p><i class="icon iconfont">&#xe668;</i>换一换</p>
+
+        <div class="image-text" id="image-text">
+            <dl id="dl1">
+                <dt><img src="image/275.jpg" alt=""/>
+                <div class="Inout"></div>
+                <div class="shade">
+                    <span><i class="icon iconfont">&#xe8ac;</i></span>
+                    <span class="bt">微锦囊</span>
+                </div>
+                </dt>
+                <dd>
+                    <p>Borgo Stretto</p>
+                    <p>比萨购物<span>当地购物排名第一</span></p>
+                </dd>
+            </dl>
+            <dl>
+                <dt><img src="image/275（1）.jpg" alt=""/>
+                <div class="Inout"></div>
+                <div class="shade">
+                    <span><i class="icon iconfont">&#xe661;</i></span>
+                    <span class="bt">折扣</span>
+                </div>
+                </dt>
+                <dd>
+                    <p>Borgo Stretto</p>
+                    <p>比萨购物<span>当地购物排名第一</span></p>
+                </dd>
+            </dl>
+            <dl>
+                <dt><img src="image/275（3）.jpg" alt=""/>
+                <div class="Inout"></div>
+                <div class="shade">
+                    <span><i class="icon iconfont">&#xe639;</i></span>
+                    <span class="bt">城市</span>
+                </div>
+                </dt>
+                <dd>
+                    <p>Borgo Stretto</p>
+                    <p>比萨购物<span>当地购物排名第一</span></p>
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                <h5>让我们更懂你</h5>
+                <p>拥有穷游账号，获得更准确的推荐</p>
+                <input type="text" value="立即注册"/>
+                <!--<p class="code">已有账号？登录</p>-->
+                <a href="#">已有账号？登录</a>
+                </dt>
+                <dd>
+                    <ul>
+                        <li><a href="#"><i class="icon iconfont">&#xe645;</i></a></li>
+                        <li><a href="#"><i class="icon iconfont">&#xe641;</i></a></li>
+                        <li><a href="#"><i class="icon iconfont">&#xe63f;</i></a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl>
+                <dt><img src="image/275（4）.jpg" alt=""/>
+                <div class="Inout"></div>
+                <div class="shade">
+                    <span><i class="icon iconfont">&#xe6a3;</i></span>
+                    <span class="bt">景点</span>
+                </div>
+                </dt>
+                <dd>
+                    <p>Borgo Stretto</p>
+
+                    <p>比萨购物<span>当地购物排名第一</span></p>
+                </dd>
+            </dl>
+            <dl>
+                <dt><img src="image/275（5）.jpg" alt=""/>
+                <div class="Inout"></div>
+                <div class="shade">
+                    <span><i class="icon iconfont">&#xe644;</i></span>
+                    <span class="bt">游记</span>
+                </div>
+                </dt>
+                <dd>
+                    <p>Borgo Stretto</p>
+
+                    <p>比萨购物<span>当地购物排名第一</span></p>
+                </dd>
+            </dl>
+            <dl>
+                <dt><img src="image/275（6）.jpg" alt=""/>
+                <div class="Inout"></div>
+                <div class="shade">
+                    <span><i class="icon iconfont">&#xe661;</i></span>
+                    <span class="bt">折扣</span>
+                </div>
+                </dt>
+                <dd>
+                    <p>Borgo Stretto</p>
+
+                    <p>比萨购物<span>当地购物排名第一</span></p>
+                </dd>
+            </dl>
+            <dl>
+                <dt><img src="image/275（7）.jpg" alt=""/>
+                <div class="Inout"></div>
+                <div class="shade">
+                    <span><i class="icon iconfont">&#xe6a3;</i></span>
+                    <span class="bt">景点</span>
+                </div>
+                </dt>
+                <dd>
+                    <p>Borgo Stretto</p>
+                    <p>比萨购物<span>当地购物排名第一</span></p>
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <!--穷游商城-->
+    <div class="shopping">
+        <h2></h2>
+        <div class="lastminute">
+            <div class="slider-inner" id="slider-inner">
+                <div class="item active show">
+                    <ul>
+                        <li>
+                            <div class="buytoday-qg"><h2>限时低价</h2></div>
+                            <div class="buytoday-cont">
+                                <img src="image/339（1）.jpg" alt=""/>
+
+                                <p>【暑期/十一】上海/杭州直飞东京/大阪/冲绳5-8天往返含税机票</p>
+                            </div>
+                            <div class="uytoday-ft">
+                                <span><em>1580</em>元起</span>
+                                <a href="#">立即抢购</a>
+                            </div>
+                            <div class="buytoday-ft">
+                                <span class="text"><a href="#">更多低价： 【暑期/国庆】广州直飞曼谷6-7日往返含税机票</a></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="buytoday-qg"><h2>特价签证</h2></div>
+                            <div class="buytoday-cont">
+                                <img src="image/339.jpg" alt=""/>
+
+                                <p>【全国收取】加拿大个人旅游签证</p>
+                            </div>
+                            <div class="uytoday-ft">
+                                <span><em>699</em>元起</span>
+                                <a href="#">立即抢购</a>
+                            </div>
+                            <div class="buytoday-ft">
+                                <span class="text"><a href="#">更多低价： 【全国领区】阿联酋个人旅游电子签证</a></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="buytoday-qg"><h2>当地玩乐</h2></div>
+                            <div class="buytoday-cont">
+                                <img src="image/339x226.jpg" alt=""/>
+
+                                <p>"澳"世凯恩斯活力大堡礁海陆空玩法大集合</p>
+                            </div>
+                            <div class="uytoday-ft">
+                                <span><em>212</em>元起</span>
+                                <a href="#">立即抢购</a>
+                            </div>
+                            <div class="buytoday-ft">
+                                <span class="text"><a href="#">更多低价： 日本游乐园全方位解析</a></span>
+                            </div>
+                        </li>
+                    </ul>
+                    <!--<div><img src="image/339（1）.jpg" alt=""/></div>
+                    <div><img src="image/339.jpg" alt=""/></div>
+                    <div><img src="image/339x226.jpg" alt=""/></div>-->
+                </div>
+                <div class="item" style="display: none">
+                    <ul>
+                        <li>
+                            <a href="#">
+                            <div class="discount">
+                                <img src="image/420(5).jpg" alt=""/>
+                                <div class="inner">
+                                    <div class="caption">美国个人旅游/探亲访友/商务签证</div>
+                                    <div class="st">
+                                        <span class="time">长期有效</span>
+                                        <span class="tag">签证</span>
+                                    </div>
+                                    <div class="price">
+                                        <span><em>1149</em>元起</span>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                            <div class="discount">
+                                <img src="image/339(2).jpg" alt=""/>
+                                <div class="inner">
+                                    <div class="caption">加拿大个人旅游签证（全国收取）</div>
+                                    <div class="st">
+                                        <span class="time">2016/06-2017/-0</span>
+                                        <span class="tag">签证</span>
+                                    </div>
+                                    <div class="price">
+                                        <span><em>869</em>元起</span>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                            <div class="discount">
+                                <img src="image/420.jpg" alt=""/>
+                                <div class="inner">
+                                    <div class="caption">美国洛杉矶迪士尼乐园1日1园实体/电子票（全国包）</div>
+                                    <div class="st">
+                                        <span class="time">2015/08-2017/-09</span>
+                                        <span class="tag">城市玩乐</span>
+                                    </div>
+                                    <div class="price">
+                                        <span><em>725</em>元起</span>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                            <div class="discount">
+                                <img src="image/420(1).jpg" alt=""/>
+                                <div class="inner">
+                                    <div class="caption">【潮人必选】粉红吉普Pink Jeep拉斯维加斯市</div>
+                                    <div class="st">
+                                        <span class="time">2015/09-2017/-12</span>
+                                        <span class="tag">城市玩乐</span>
+                                    </div>
+                                    <div class="price">
+                                        <span><em>540</em>元起</span>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                            <div class="discount">
+                                <img src="image/420(2).jpg" alt=""/>
+                                <div class="inner">
+                                    <div class="caption">巴厘岛蓝毗尼园别墅酒店和Spa特惠（含双早）</div>
+                                    <div class="st">
+                                        <span class="time">2016/01-2017/-11</span>
+                                        <span class="tag">酒店</span>
+                                    </div>
+                                    <div class="price">
+                                        <span><em>999</em>元起</span>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                            <div class="discount">
+                                <img src="image/420(3).jpg" alt=""/>
+                                <div class="inner">
+                                    <div class="caption">美国华盛顿杜莎夫人蜡像馆门票</div>
+                                    <div class="st">
+                                        <span class="time">2016/01-2017/-12</span>
+                                        <span class="tag">城市玩乐</span>
+                                    </div>
+                                    <div class="price">
+                                        <span><em>100</em>元起</span>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="item" style="display: none">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <div class="discount">
+                                    <img src="image/420(6).jpg" alt=""/>
+                                    <div class="inner">
+                                        <div class="caption">澳门金沙城中心喜来登酒店2天1晚双人价（豪华客）</div>
+                                        <div class="st">
+                                            <span class="time">2016/08-2017/-06</span>
+                                            <span class="tag">酒店</span>
+                                        </div>
+                                        <div class="price">
+                                            <span><em>805</em>元起</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="discount">
+                                    <img src="image/420(7).jpg" alt=""/>
+                                    <div class="inner">
+                                        <div class="caption">【赠免税店优惠券】泰国普吉岛女神人妖秀VIP座</div>
+                                        <div class="st">
+                                            <span class="time">2015/01-2017/-09</span>
+                                            <span class="tag">城市玩乐</span>
+                                        </div>
+                                        <div class="price">
+                                            <span><em>49</em>元起</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="discount">
+                                    <img src="image/420(8).jpg" alt=""/>
+                                    <div class="inner">
+                                        <div class="caption">【三星、含早餐】吉隆坡宜必思尚弗拉斯尔酒店</div>
+                                        <div class="st">
+                                            <span class="time">2016/09-2017/-10</span>
+                                            <span class="tag">酒店</span>
+                                        </div>
+                                        <div class="price">
+                                            <span><em>165</em>元起</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="discount">
+                                    <img src="image/420(9).jpg" alt=""/>
+                                    <div class="inner">
+                                        <div class="caption">【穷游Q-Home独家】日本京都邸园日式茶道体验</div>
+                                        <div class="st">
+                                            <span class="time">1970/01-2017/-09</span>
+                                            <span class="tag">城市玩乐</span>
+                                        </div>
+                                        <div class="price">
+                                            <span><em>128</em>元起</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="discount">
+                                    <img src="image/420(10).jpg" alt=""/>
+                                    <div class="inner">
+                                        <div class="caption">(四星、清迈中心)清迈德兰纳酒店De Lanna</div>
+                                        <div class="st">
+                                            <span class="time">2015/11-2017/-08</span>
+                                            <span class="tag">酒店</span>
+                                        </div>
+                                        <div class="price">
+                                            <span><em>580</em>元起</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="discount">
+                                    <img src="image/420(11).jpg" alt=""/>
+                                    <div class="inner">
+                                        <div class="caption">美国旧金山笛洋美术馆门票</div>
+                                        <div class="st">
+                                            <span class="time">2017/03-2017/-12</span>
+                                            <span class="tag">城市玩乐</span>
+                                        </div>
+                                        <div class="price">
+                                            <span><em>54</em>元起</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="item" style="display: none">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <div class="discount">
+                                    <img src="image/420(12).jpg" alt=""/>
+                                    <div class="inner">
+                                        <div class="caption">(五星,圣淘沙)新加坡圣淘沙名胜世界迈克尔/节庆/硬石/逸濠酒店</div>
+                                        <div class="st">
+                                            <span class="time">2015/12 - 2018/02</span>
+                                            <span class="tag">酒店</span>
+                                        </div>
+                                        <div class="price">
+                                            <span><em>1220</em>元起</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="discount">
+                                    <img src="image/420(13).jpg" alt=""/>
+                                    <div class="inner">
+                                        <div class="caption">Anne Walk武康路，老上海风情的缩影</div>
+                                        <div class="st">
+                                            <span class="time">2015/11 - 2017/07</span>
+                                            <span class="tag">城市玩乐</span>
+                                        </div>
+                                        <div class="price">
+                                            <span><em>88</em>元起</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="discount">
+                                    <img src="image/420(14).jpg" alt=""/>
+                                    <div class="inner">
+                                        <div class="caption">(四星,牛车水)新加坡M酒店 M Hotel Singapore(含双早,距离丹戎巴葛地铁站350米)</div>
+                                        <div class="st">
+                                            <span class="time">2016/04 - 2017/06</span>
+                                            <span class="tag">酒店</span>
+                                        </div>
+                                        <div class="price">
+                                            <span><em>956</em>元起</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="discount">
+                                    <img src="image/420(15).jpg" alt=""/>
+                                    <div class="inner">
+                                        <div class="caption">【赠免税店优惠券】泰国普吉珊瑚岛Nikorn Marine一日游(英文导游,可加订多种水上项目)</div>
+                                        <div class="st">
+                                            <span class="time">2015/01 - 2017/09</span>
+                                            <span class="tag">城市玩乐</span>
+                                        </div>
+                                        <div class="price">
+                                            <span><em>28</em>元起</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="discount">
+                                    <img src="image/420(16).jpg" alt=""/>
+                                    <div class="inner">
+                                        <div class="caption">马来西亚仙本那诗巴丹 新佳马达海上度假村Singamata Adventures & Reef Resort（赠送浮潜+跳岛游）</div>
+                                        <div class="st">
+                                            <span class="time">2016/07 - 2017/10</span>
+                                            <span class="tag">酒店</span>
+                                        </div>
+                                        <div class="price">
+                                            <span><em>400</em>元起</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="discount">
+                                    <img src="image/420(17).jpg" alt=""/>
+                                    <div class="inner">
+                                        <div class="caption">【香港地标】海龙明珠维港夜晚游船(2人成团)</div>
+                                        <div class="st">
+                                            <span class="time">1970/01 - 2017/12</span>
+                                            <span class="tag">城市玩乐</span>
+                                        </div>
+                                        <div class="price">
+                                            <span><em>29</em>元起</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="slider-control" id="slider-control">
+                <a href="javascirpt:;" class="dis"></a>
+                <a href="javascirpt:;"></a>
+                <a href="javascirpt:;"></a>
+                <a href="javascirpt:;"></a>7
+            </div>
+            <div class="planning-more">
+                <a href="#">查看更多</a>
+            </div>
+        </div>
+    </div>
+    <!--热门游记与话题-->
+    <div class="section">
+        <div class="wrapper">
+            <h2 class="title">热门游记与话题</h2>
+
+            <div class="hottravels">
+                <div class="slider">
+                    <div class="slider-inner1">
+                        <div class="slider-item">
+                            <ul class="dong">
+                                <li>
+                                    <div class="travel">
+                                        <div class="photo">
+                                            <a href="#"><img src="image/1.jpg" alt=""/></a>
+                                            <div class="like">34</div>
+                                        </div>
+                                        <div class="inner">
+                                            <div class="info">
+                                                <span class="avatar">
+                                                    <a href="#"><img src="image/200%20(19).jpg" alt=""/></a>
+                                                </span>
+                                                <span class="txt">
+                                                    <a href="#">穷游大秘书</a>
+                                                    <i class="quer"></i>
+                                                </span>
+                                            </div>
+                                            <a href="#">
+                                                <div class="caption">今日话题 | 你有被一图种草的经历么</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="travel">
+                                        <div class="photo">
+                                            <a href="#"><img src="image/2.jpg" alt=""/></a>
+                                            <div class="like">34</div>
+                                        </div>
+                                        <div class="inner">
+                                            <div class="info">
+                                                <span class="avatar">
+                                                    <a href="#"><img src="image/200%20(11).jpg" alt=""/></a>
+                                                </span>
+                                                <span class="txt">
+                                                    <a href="#">穷游大秘书</a>
+                                                    <i class="quer"></i>
+                                                </span>
+                                            </div>
+                                            <a href="#">
+                                                <div class="caption">今日话题 | 你有被一图种草的经历么</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="travel">
+                                        <div class="photo">
+                                            <a href="#"><img src="image/3.jpg" alt=""/></a>
+                                            <div class="like">34</div>
+                                        </div>
+                                        <div class="inner">
+                                            <div class="info">
+                                                <span class="avatar">
+                                                    <a href="#"><img src="image/200%20(22).jpg" alt=""/></a>
+                                                </span>
+                                                <span class="txt">
+                                                    <a href="#">穷游大秘书</a>
+                                                    <i class="quer"></i>
+                                                </span>
+                                            </div>
+                                            <a href="#">
+                                                <div class="caption">今日话题 | 你有被一图种草的经历么</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="travel">
+                                        <div class="photo">
+                                            <a href="#"><img src="image/4.jpg" alt=""/></a>
+                                            <div class="like">34</div>
+                                        </div>
+                                        <div class="inner">
+                                            <div class="info">
+                                                <span class="avatar">
+                                                    <a href="#"><img src="image/200%20(30).jpg" alt=""/></a>
+                                                </span>
+                                                <span class="txt">
+                                                    <a href="#">穷游大秘书</a>
+                                                    <i class="quer"></i>
+                                                </span>
+                                            </div>
+                                            <a href="#">
+                                                <div class="caption">今日话题 | 你有被一图种草的经历么</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="travel">
+                                        <div class="photo">
+                                            <a href="#"><img src="image/5.jpg" alt=""/></a>
+                                            <div class="like">34</div>
+                                        </div>
+                                        <div class="inner">
+                                            <div class="info">
+                                                <span class="avatar">
+                                                    <a href="#"><img src="image/200%20(4).jpg" alt=""/></a>
+                                                </span>
+                                                <span class="txt">
+                                                    <a href="#">穷游大秘书</a>
+                                                    <i class="quer"></i>
+                                                </span>
+                                            </div>
+                                            <a href="#">
+                                                <div class="caption">今日话题 | 你有被一图种草的经历么</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="travel">
+                                        <div class="photo">
+                                            <a href="#"><img src="image/6.jpg" alt=""/></a>
+                                            <div class="like">34</div>
+                                        </div>
+                                        <div class="inner">
+                                            <div class="info">
+                                                <span class="avatar">
+                                                    <a href="#"><img src="image/200%20(27).jpg" alt=""/></a>
+                                                </span>
+                                                <span class="txt">
+                                                    <a href="#">穷游大秘书</a>
+                                                    <i class="quer"></i>
+                                                </span>
+                                            </div>
+                                            <a href="#">
+                                                <div class="caption">今日话题 | 你有被一图种草的经历么</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="travel">
+                                        <div class="photo">
+                                            <a href="#"><img src="image/7.jpg" alt=""/></a>
+                                            <div class="like">34</div>
+                                        </div>
+                                        <div class="inner">
+                                            <div class="info">
+                                                <span class="avatar">
+                                                    <a href="#"><img src="image/200%20(28).jpg" alt=""/></a>
+                                                </span>
+                                                <span class="txt">
+                                                    <a href="#">穷游大秘书</a>
+                                                    <i class="quer"></i>
+                                                </span>
+                                            </div>
+                                            <a href="#">
+                                                <div class="caption">今日话题 | 你有被一图种草的经历么</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="travel">
+                                        <div class="photo">
+                                            <a href="#"><img src="image/8.jpg" alt=""/></a>
+                                            <div class="like">34</div>
+                                        </div>
+                                        <div class="inner">
+                                            <div class="info">
+                                                <span class="avatar">
+                                                    <a href="#"><img src="image/200%20(14).jpg" alt=""/></a>
+                                                </span>
+                                                <span class="txt">
+                                                    <a href="#">穷游大秘书</a>
+                                                    <i class="quer"></i>
+                                                </span>
+                                            </div>
+                                            <a href="#">
+                                                <div class="caption">今日话题 | 你有被一图种草的经历么</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="slider-control">
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                    </div>
+                </div>
+                <div class="more">
+                    <a href="#">查看更多游记</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--免费体验-->
+    <div class="section section-gray">
+        <div class="wrapper">
+            <div class="advtry">
+                <h3>免费体验，限时申领中</h3>
+                <div class="advtry-wrap-fl">
+                    <div class="advtry-item">
+                        <div class="img">
+                            <a href="#">
+                                <img src="image/370.jpg" alt="" class="pic"/>
+                                <p class="bg"></p>
+                                <p class="timer">申请已结束</p>
+                            </a>
+                        </div>
+                        <div class="info">
+                            <h4 class="title"><a href="#">JNE 随意泊 旅行休闲双肩背包</a></h4>
+                            <div class="desc">
+                                <span><em class="price">价值 ￥368</em></span>
+                                <span>免费体验名额 5 个</span>
+                                <a href="#" class="link-btn">查看详情</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="advtry-wrap-fr">
+                    <div class="advtry-logo">
+                        <a href="#"><img src="image/advtry.png" alt=""/></a>
+                    </div>
+                    <div class="advtry-item2">
+                        <div class="img">
+                            <a href="#"><img src="image/ee5a.jpg" alt=""/></a>
+                        </div>
+                        <div class="info">
+                            <h4 class="title"><a href="#">免费体验 索尼降噪耳机MDR-1000X</a></h4>
+                            <div class="desc">
+                                <span><em class="price">价值 ￥2,899</em></span>
+                                <span>免费体验名额 5 个</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="advtry-user">
+                        <h4><span>近期参与</span></h4>
+                        <div class="user-scroll">
+                            <ul>
+                                <li><img src="image/120.jpg" alt=""/></li>
+                                <li><img src="image/120%20(1).jpg" alt=""/></li>
+                                <li><img src="image/120%20(2).jpg" alt=""/></li>
+                                <li><img src="image/120%20(3).jpg" alt=""/></li>
+                                <li><img src="image/120%20(4).jpg" alt=""/></li>
+                                <li><img src="image/120%20(5).jpg" alt=""/></li>
+                                <li><img src="image/middle2.png" alt=""/></li>
+                                <li><img src="image/middle3.png" alt=""/></li>
+                                <li><img src="image/middle4.png" alt=""/></li>
+                                <li><img src="image/middle5.png" alt=""/></li>
+                                <li><img src="image/middle6.png" alt=""/></li>
+                            </ul>
+                            <!--<div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="image/120.jpg" alt=""/></div>
+                                    <div class="swiper-slide"><img src="image/120%20(1).jpg" alt=""/></div>
+                                    <div class="swiper-slide"><img src="image/120%20(2).jpg" alt=""/></div>
+                                </div>
+                                &lt;!&ndash; 如果需要分页器 &ndash;&gt;
+                                <div class="swiper-pagination"></div>
+
+                                &lt;!&ndash; 如果需要导航按钮 &ndash;&gt;
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+
+                                &lt;!&ndash; 如果需要滚动条 &ndash;&gt;
+                                <div class="swiper-scrollbar"></div>
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="specialPlanning">
+                <h3 class="title">特别策划</h3>
+                <div class="planning-silder-wrapper">
+                    <ul class="planning-tabs">
+                        <li class="active"><a href="#">地球研习社</a></li>
+                        <li><a href="#"> Q-story</a></li>
+                        <li><a href="#">去也</a></li>
+                    </ul>
+                    <div class="planning-content">
+                        <div><a href="#"><img src="image/101c.jpg" alt=""/></a></div>
+                        <div><a href="#"><img src="image/f6f5.jpg" alt=""/></a></div>
+                        <div><a href="#"><img src="image/9c98.jpg" alt=""/></a></div>
+                    </div>
+                </div>
+                <div class="planning-more">
+                    <a href="#">查看更多</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--银联环球-->
+    <div class="Unionpay">
+        <div class="world">
+            <a href="#"><img src="image/150.jpg" alt=""/></a>
+        </div>
+    </div>
+    <!--应用-->
+    <div class="APP">
+        <div class="wrapper">
+            <div class="apps">
+                <h3>穷游APP</h3>
+                <ul class="list">
+                    <li><a href=""><img src="image/app_qyer.png" alt=""/><span>穷游</span></a></li>
+                    <li><a href=""><img src="image/app_plan.png" alt=""/><span>行程助手</span></a></li>
+                    <li><a href=""><img src="image/app_z.png" alt=""/><span>穷游最世界</span></a></li>
+                    <li><a href=""><img src="image/app_guide.png" alt=""/><span>穷游锦囊</span></a></li>
+                </ul>
+            </div>
+            <div class="wechat">
+                <h3>微信号</h3>
+                <ul class="lists">
+                    <li><img src="image/qrcode_qyer.png" alt=""/><span>穷游网</span></li>
+                    <li><img src="image/qrcode_plan.png" alt=""/><span>穷游最世界</span></li>
+                    <li><img src="image/qrcode_z.png" alt=""/><span>穷游锦囊</span></li>
+                    <li><img src="image/qrcode_guide.png" alt=""/><span>行程助手</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div class="footer">
+        <div class="footer-line"></div>
+        <div class="footer-wrap">
+            <div class="footer-inner">
+                <ul class="footer-about">
+                    <li>
+                        <dl>
+                            <dt>关于我们</dt>
+                            <dd><a href="#">穷游简介</a></dd>
+                            <dd><a href="#">联系我们</a></dd>
+                            <dd><a href="#">合作伙伴</a></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>加入穷游</dt>
+                            <dd><a href="#">招聘职位</a></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>网站条款</dt>
+                            <dd><a href="#">会员条款</a></dd>
+                            <dd><a href="#">社区指南</a></dd>
+                            <dd><a href="#">版权声明</a></dd>
+                            <dd><a href="#">免费声明</a></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>帮助中心</dt>
+                            <dd><a href="#">新手上路</a></dd>
+                            <dd><a href="#">使用帮助</a></dd>
+                            <dd><a href="#">网站地图</a></dd>
+                            <dd><a href="#">旅行工具</a></dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-wrap-black">
+            <div class="footer-inner2">
+                <div class="footer-copyright">
+                    <a href="#" class="fr"><img src="image/chengxin.png" alt=""/></a>
+                    <a href="#" class="fl"><img src="image/logo_gray_r.png" alt=""/></a>
+                    <p>2004-2017 &copy; 穷游网&reg; qyer.com All rights reserved. Version v5.57&nbsp;<a href="#">京ICP备12003524号</a>&nbsp;京公网安备11010102001935&nbsp;京ICP证140673号&nbsp;<a href="#">营业执照</a>&nbsp;<a href="#">经营许可证</a></p>
+                    <p><a href="#">穷游网</a>为<a href="#">旅行</a>者提供原创实用的<a href="#">出境游</a><a href="#">旅行指南</a>和<a href="#">旅游攻略</a>、<a href="#">旅行社区</a>和<a href="#">问答</a>交流平台，并提供<a href="#">签证</a>、<a href="#">保险</a>、<a href="#">机票</a>、<a href="#">酒店预订</a>、<a href="#">租车</a>等服务。</p>
+                </div>
+                <div class="footer-links">
+                    <span>友情链接</span>
+                    <p>
+                        <a href="http://www.juzigo.com" target="_blank">交通查询</a>
+                        | <a href="http://www.zuzuche.com/" target="_blank">租租车</a>
+                        | <a href="http://www.meishubao.com" target="_blank">美术教育</a>
+                        | <a href="http://www.jiaotongjie.com" target="_blank">中国交通网</a>
+                        | <a href="http://www.changtu.com" target="_blank">长途汽车票</a>
+                        | <a href="http://www.uzai.com" target="_blank">旅游网</a>
+                        | <a href="http://www.jdair.net" target="_blank">首都航空</a>
+                        | <a href="http://www.gebilaoshi.com/" target="_blank">在线教育</a>
+                        | <a href="http://www.syoits.com" target="_blank">金运之旅</a>
+                        | <a href="http://www.wandoujia.com" target="_blank">豌豆荚安卓市场</a>
+                        | <a href="http://travel.ifeng.com/" target="_blank">凤凰网旅游</a>
+                        | <a href="http://www.caissa.com.cn/" target="_blank">凯撒旅游</a>
+                        | <a href="http://www.zuche.com/" target="_blank">神州租车</a>
+                        | <a href="http://www.huizuche.com/" target="_blank">国际租车</a>
+                        | <a href="http://you.ctrip.com/" target="_blank">携程攻略社区</a>
+                        | <a href="http://www.fengniao.com/" target="_blank">蜂鸟网</a>
+                        | <a href="http://www.tianxun.com/" target="_blank">天巡国际机票</a>
+                        | <a href="http://www.youpu.cn" target="_blank">游谱旅行网 </a>
+                        | <a href="http://www.qianzhengdaiban.com/" target="_blank">中国签证资讯网</a>
+                        | <a href="http://www.dreams-travel.com/" target="_blank">梦之旅</a>
+                        | <a href="http://www.9tour.cn/" target="_blank">九游网</a>
+                        | <a href="http://www.zglxw.com/" target="_blank">北京国旅官网</a>
+                        | <a href="http://www.ly.com/" target="_blank">同程旅游</a>
+                        | <a href="http://www.feiren.com/" target="_blank">腾邦国际</a>
+                        | <a href="http://www.meet99.com/" target="_blank">相约久久旅游网</a>
+                        | <a href="http://www.tuniu.com/" target="_blank">途牛旅游网</a>
+                        | <a href="http://www.mayi.com/" target="_blank">日租房</a>
+                        | <a href="http://www.aoyou.com" target="_blank">遨游网</a>
+                        | <a href="http://vacations.ctrip.com/" target="_blank">携程旅游网</a>
+                        | <a href="http://www.ch.com/" target="_blank">春秋航空</a>
+                        | <a href="http://bizhi.sogou.com/" target="_blank">搜狗壁纸</a>
+                        | <a href="http://www.8264.com/" target="_blank">户外资料网</a>
+                        | <a href="http://www.ailvxing.com/" target="_blank">爱旅行网</a>
+                        | <a href="http://www.toursforfun.com/" target="_blank">途风网</a>
+                        | <a href="http://www.guolv.com/" target="_blank">神舟国旅</a>
+                        | <a href="http://www.lavago.com/" target="_blank">拉拉勾旅游网</a>
+                        | <a href="http://www.114piaowu.com/" target="_blank">火车票</a>
+                        | <a href="http://www.ctcnn.com/" target="_blank">劲旅网</a>
+                        | <a href="http://www.mipang.com/" target="_blank">米胖旅游网</a>
+                        | <a href="http://www.5fen.com/" target="_blank">五分旅游网</a>
+                        | <a href="http://www.lvye.cn/" target="_blank">绿野网</a>
+                        | <a href="http://www.tianqi.com/" target="_blank">天气预报15天查询</a>
+                        | <a href="http://www.eueueu.com/" target="_blank">走遍欧洲</a>
+                        | <a href="http://www.zhuna.cn/" target="_blank">酒店预订</a>
+                        | <a href="http://www.cncn.com/" target="_blank">欣欣旅游网</a>
+                        | <a href="http://www.lvmama.com" target="_blank">驴妈妈旅游网</a>
+                        | <a href="http://www.yododo.cn/" target="_blank">多多驿站</a>
+                        | <a href="http://trip.elong.com/" target="_blank">艺龙旅游指南</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/index.js"></script>
+<script src="js/style.js"></script>
+<script src="js/search.js"></script>
+<script src="js/xuan.js"></script>
+</body>
+</html>
